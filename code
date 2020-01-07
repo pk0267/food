@@ -1,0 +1,13 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+int main()
+{
+
+  string ingredients;
+  cout << "Input the ingredients you have:";
+  getline(cin, ingredients);
+
+  for(cake = 1)
+  { 
