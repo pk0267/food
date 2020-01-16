@@ -8,6 +8,13 @@ int main()
   string ingredients;
   cout << "Input the ingredients you have:";
   getline(cin, ingredients);
+  
+  boolean cake = false;
+  
+  string butter = "butter";
 
-  for(cake = 1)
-  { 
+  if (ingredients.find(butter))
+    cake = true;
+    
+    
+   cout << cake;
